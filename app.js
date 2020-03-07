@@ -11,6 +11,7 @@ var mongoose = require('mongoose');
 
 var graphqlHTTP = require('express-graphql');
 var schema = require('./schemas/userSchema');
+var bla = require('./schemas/badgeSchema');
 var cors = require("cors");
 
 

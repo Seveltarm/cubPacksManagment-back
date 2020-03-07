@@ -16,7 +16,7 @@ var userType = new GraphQLObjectType({
       _id: {
         type: GraphQLString
       },
-      mail: {
+      email: {
         type: GraphQLString
       },
       password: {
@@ -48,8 +48,8 @@ var getUserByMail = new GraphQLObjectType({
       user: {
         type: userType,
         args: {
-          mail: {
-            name: 'mail',
+          email: {
+            name: 'email',
             type: GraphQLString
           },
           password: {
@@ -57,9 +57,12 @@ var getUserByMail = new GraphQLObjectType({
             type: GraphQLString
           }
         },
-        resolve: async (parent, {mail, password}) => {
-          const user = await UserModel.findOne({ mail, password })
-          console.log('user',user);
+        resolve: async (parent, { email, password }) => {
+          const user = await UserModel.findOne({ email, password })
+          if (!user) {
+            throw new Error('USER_NOT_FOUND');
+          }
+          console.log('user', user);
           return user;
         }
       }
@@ -74,7 +77,7 @@ var userMutation = new GraphQLObjectType({
       addUser: {
         type: userType,
         args: {
-          mail: {
+          email: {
             type: new GraphQLNonNull(GraphQLString)
           },
           password: {
@@ -90,11 +93,15 @@ var userMutation = new GraphQLObjectType({
             type: GraphQLString
           }
         },
-        resolve: function (root, params) {
+        resolve: async (root, params) => {
+          const isMailAlreadyRegistered = await UserModel.findOne(params.mail)
+          if (isMailAlreadyRegistered) {
+            throw new Error('MAIL_ALREADY_REGISTERED');
+          }
           const userModel = new UserModel(params);
           const newUser = userModel.save();
           if (!newUser) {
-            throw new Error('Error');
+            throw new Error('UNEXPECTED_ERROR');
           }
           return newUser
         }
@@ -135,7 +142,7 @@ var userMutation = new GraphQLObjectType({
         resolve(root, params) {
           const removeUser = UserModel.findByIdAndRemove(params.id).exec();
           if (!removeUser) {
-            throw new Error('Error')
+            throw new Error('UNEXPECTED_ERROR');
           }
           return removeUser;
         }
