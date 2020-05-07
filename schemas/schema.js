@@ -1,47 +1,22 @@
-var GraphQLSchema = require('graphql').GraphQLSchema;
-var GraphQLObjectType = require('graphql').GraphQLObjectType;
-var GraphQLList = require('graphql').GraphQLList;
-var GraphQLObjectType = require('graphql').GraphQLObjectType;
-var GraphQLNonNull = require('graphql').GraphQLNonNull;
-var GraphQLID = require('graphql').GraphQLID;
-var GraphQLString = require('graphql').GraphQLString;
-var GraphQLInt = require('graphql').GraphQLInt;
-var GraphQLDate = require('graphql-date');
-var UserModel = require('../models/user');
+//GraphQL
+const GraphQLSchema = require('graphql').GraphQLSchema;
+const GraphQLObjectType = require('graphql').GraphQLObjectType;
+const GraphQLList = require('graphql').GraphQLList;
+const GraphQLNonNull = require('graphql').GraphQLNonNull;
+const GraphQLID = require('graphql').GraphQLID;
+const GraphQLString = require('graphql').GraphQLString;
+const GraphQLInt = require('graphql').GraphQLInt;
+const GraphQLDate = require('graphql-date');
 
-var userType = new GraphQLObjectType({
-  name: 'user',
-  fields: function () {
-    return {
-      _id: {
-        type: GraphQLString
-      },
-      email: {
-        type: GraphQLString
-      },
-      password: {
-        type: GraphQLString
-      },
-      name: {
-        type: GraphQLString
-      },
-      surname: {
-        type: GraphQLString
-      },
-      pack: {
-        type: GraphQLString
-      },
-      registrationDate: {
-        type: GraphQLDate
-      },
-      updatedDate: {
-        type: GraphQLDate
-      }
-    }
-  }
-});
+//Models
+const UserModel = require('../models/user');
+const BadgeModel = require('../models/badge');
 
-var getUserByMail = new GraphQLObjectType({
+//Types
+const userType = require('../types/userType');
+const badgeType = require('../types/badgeType');
+
+var queries = new GraphQLObjectType({
   name: 'Query',
   fields: function () {
     return {
@@ -62,7 +37,16 @@ var getUserByMail = new GraphQLObjectType({
           if (!user) {
             throw new Error('USER_NOT_FOUND');
           }
-          console.log('user', user);
+          return user;
+        }
+      },
+      badges: {
+        type: badgeType,
+        resolve: async () => {
+          const user = await BadgeModel.find()
+          if (!user) {
+            throw new Error('USER_NOT_FOUND');
+          }
           return user;
         }
       }
@@ -70,7 +54,7 @@ var getUserByMail = new GraphQLObjectType({
   }
 });
 
-var userMutation = new GraphQLObjectType({
+var mutations = new GraphQLObjectType({
   name: 'Mutation',
   fields: function () {
     return {
@@ -94,7 +78,8 @@ var userMutation = new GraphQLObjectType({
           }
         },
         resolve: async (root, params) => {
-          const isMailAlreadyRegistered = await UserModel.findOne(params.mail)
+          const email = params.email
+          const isMailAlreadyRegistered = await UserModel.findOne({ email })
           if (isMailAlreadyRegistered) {
             throw new Error('MAIL_ALREADY_REGISTERED');
           }
@@ -146,9 +131,37 @@ var userMutation = new GraphQLObjectType({
           }
           return removeUser;
         }
+      },
+      addBadge: {
+        type: badgeType,
+        args: {
+          title: {
+            type: new GraphQLNonNull(GraphQLString)
+          },
+          description: {
+            type: new GraphQLNonNull(GraphQLString)
+          },
+          logo: {
+            type: GraphQLString
+          },
+          packId: {
+            type: GraphQLString
+          },
+          category: {
+            type: GraphQLString
+          }
+        },
+        resolve: async (root, params) => {
+          const badgeModel = new BadgeModel(params);
+          const newBadge = badgeModel.save();
+          if (!newBadge) {
+            throw new Error('UNEXPECTED_ERROR');
+          }
+          return newBadge;
+        }
       }
     }
   }
 });
 
-module.exports = new GraphQLSchema({ query: getUserByMail, mutation: userMutation });
+module.exports = new GraphQLSchema({ query: queries, mutation: mutations });
