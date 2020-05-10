@@ -18,15 +18,6 @@ mongoose.connect('mongodb://localhost/cubPacksManagment', { promiseLibrary: requ
   .then(() => console.log('connection successful'))
   .catch((err) => console.error(err));
 
-// passport.use(
-//   new GraphQLLocalStrategy((email, password, done) => {
-//     const users = User.getUsers();
-//     const matchingUser = users.find(user => email === user.email && password === user.password);
-//     const error = matchingUser ? null : new Error('no matching user');
-//     done(error, matchingUser);
-//   }),
-// );
-
 var app = express();
 
 app.use('*', cors());
@@ -35,7 +26,6 @@ app.use('/graphql', cors(), graphqlHTTP({
   rootValue: global,
   graphiql: true,
 }));
-// app.use(passport.initialize());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

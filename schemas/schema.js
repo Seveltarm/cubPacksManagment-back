@@ -41,13 +41,19 @@ var queries = new GraphQLObjectType({
         }
       },
       badges: {
-        type: badgeType,
-        resolve: async () => {
-          const user = await BadgeModel.find()
-          if (!user) {
-            throw new Error('USER_NOT_FOUND');
+        type: new GraphQLList(badgeType),
+        args: {
+          category: {
+            name: 'category',
+            type: GraphQLInt
           }
-          return user;
+        },
+        resolve: async (parent, { category }) => {
+          const badges = await BadgeModel.find({ category: category })
+          if (!badges) {
+            throw new Error('BADGES_NOT_FOUND');
+          }
+          return badges;
         }
       }
     }
@@ -139,6 +145,12 @@ var mutations = new GraphQLObjectType({
             type: new GraphQLNonNull(GraphQLString)
           },
           description: {
+            type: new GraphQLNonNull(GraphQLString)
+          },
+          tasks: {
+            type: new GraphQLNonNull(GraphQLString)
+          },
+          comment: {
             type: new GraphQLNonNull(GraphQLString)
           },
           logo: {

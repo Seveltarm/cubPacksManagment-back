@@ -15,6 +15,12 @@ const badgeType = new GraphQLObjectType({
       description: {
         type: GraphQLString
       },
+      tasks: {
+        type: GraphQLString
+      },
+      comment: {
+        type: GraphQLString
+      },
       logo: {
         type: GraphQLString
       },
