@@ -46,13 +46,30 @@ var queries = new GraphQLObjectType({
           category: {
             name: 'category',
             type: GraphQLInt
-          }
+          },
+          searchedPhrase: {
+            name: 'searchedPhrase',
+            type: GraphQLString
+          },
         },
-        resolve: async (parent, { category }) => {
-          const badges = await BadgeModel.find({ category: category })
+        resolve: async (parent, { category, searchedPhrase }) => {
+          console.log(category, searchedPhrase);
+          const badges = await BadgeModel.find({ category: category });
           if (!badges) {
             throw new Error('BADGES_NOT_FOUND');
           }
+
+          if (searchedPhrase) {
+            let filteredBadges = badges.filter((badge) => {
+              if (badge.title.toLowerCase().includes(searchedPhrase.toLowerCase()) || 
+                  badge.description.toLowerCase().includes(searchedPhrase.toLowerCase()) ||
+                  badge.tasks.toLowerCase().includes(searchedPhrase.toLowerCase()) ||
+                  badge.comment.toLowerCase().includes(searchedPhrase.toLowerCase())) {
+                return badge;
+              }
+            })
+            return filteredBadges;
+          }  
           return badges;
         }
       }
@@ -151,7 +168,7 @@ var mutations = new GraphQLObjectType({
             type: new GraphQLNonNull(GraphQLString)
           },
           comment: {
-            type: new GraphQLNonNull(GraphQLString)
+            type: GraphQLString
           },
           logo: {
             type: GraphQLString
