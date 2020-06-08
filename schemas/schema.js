@@ -53,7 +53,6 @@ var queries = new GraphQLObjectType({
           },
         },
         resolve: async (parent, { category, searchedPhrase }) => {
-          console.log(category, searchedPhrase);
           const badges = await BadgeModel.find({ category: category });
           if (!badges) {
             throw new Error('BADGES_NOT_FOUND');

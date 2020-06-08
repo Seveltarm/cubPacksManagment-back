@@ -1,0 +1,822 @@
+[{
+  "_id": {
+    "$oid": "5eb826023211812964c40d24"
+  },
+  "title": "Promyczek",
+  "description": "Promyczek to zuchenka, która potrafi promieniować radością nawet w trudnych sytuacjach.",
+  "tasks": "1. Jest pogodna i koleżeńska, nie złości się i nie gniewa.<br/>2. Potrafi stawić czoła trudnej sytuacji.<br/>3. Umie pocieszyć innych swoim zachowaniem, mimiką lub wykonaną przez siebie prostą majsterką.<br/>4. Opowiada, rysuje zabawne historie.<br/>5. Zachowuje się adekwatnie do sytuacji.",
+  "comment": "ad.2. Nie narzeka, nie płacze, uczy się dzielności.<br/>ad.4. Zuchenka może, np. ułożyć wierszyk, scenkę, wesołą piosenkę, itd.<br/>ad.5. Adekwatne zachowanie rozumiane jest jako odpowiednie do sytuacji (nie śmieje się, gdy ktoś płacze itd.).",
+  "category": 0,
+  "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAABhCAYAAAAA75lfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAB98SURBVHhe7dxljyTHsgbg+3vsT5atY0smmZmZac3MzMzMzMzMzMzMzMxQR0/K76pO35rZqd7pHdgKKVXdVQmREW9GREZW9/9VHXXUB3XA6agv6oDTUV/UAaejvqgDTkd9UQecjvqiDjgd9UUdcDrqizrgdNQXdcDpqC/qgNNRX9QKOB9//HH10EMPVXvttVe12mqrVTvttFO12267Vdtvv/2oFf3tvvvuAy077LBD49ibbbZZtf7661cbbbRRte2221Y777xztfXWW1dTpkwpZZNNNqm22GKLaptttin1d9xxx8b+hyvG1mebYhyy7i14bKo/VNlqq62qLbfcstpll12qww8/vFz1c/nll1d//PHHv1oeGbUCzptvvlndcssthYE111yzOvnkk6uLL764Ou2008rn0SjnnHNOde655w60nHrqqY1jn3nmmWX8s846q9Q7++yzq5NOOqk69thjy1U7z84777zqoosuKnPv7XtaRZsrr7xyxOWKK66oLr300sbiWVObocpll11W5nfBBReU9rvuumu13nrrVccdd1z1+++//6vlkVEr4LzzzjsFOJB6wAEHVC+//HL1xRdfVB988EH13nvvjUr56KOPqk8++WSgpWlcxTPz+eyzz8qcXn/99VLeeOON6tVXX61ee+216u233y7P1P3000//p9+RlC+//LL69ttvq++++25ERV08ff755/+vfP311636+uabb6b29f7775eFwXoec8wx1W+//favlkdGrYBj8Ntvv72Y2yOPPLIIGFIVpm40yp9//ln99ddfAy1N4yrG/vvvv0udn376qQj5l19+KZ8JO0r3naDNu7fvaRVttB1p+fXXX6fy1lua6g9X6vz+/PPP1Y033ljc5/HHH1+etaFWwDEJwNl4442r/fffv8Q833//fSkYIeTpLRT3zz//DLSYR9PYFIQI1qJ4/vnn/wc82lFYeOyH1wCzTWnqR2mqO1zBe8ADSDfddFOJKRkB39tQa+BwVWuttVa17777FuGyQj/++GNhaDQKgQyamsZVCNb4QHLvvfeWlShwfOWVV6YuDvUIPqAZNAUkQ5U2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",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9a48998e77e2d2cd8c766"
+  },
+  "title": "Dobry duszek",
+  "description": "Dobry duszek to zuchenka, który pomaga innym i niezauważenie czyni dobro.",
+  "tasks": "1. Jak dobry duszek pomaga ludziom w potrzebie, bez przechwalania się, nie czekając na nagrodę.<br/>2. Sprawiła komuś miłą niespodziankę.<br/>3. W wybrany przez siebie sposób przedstawiła opowieść o dobroci.<br/>4. Dostrzega nastroje innych i potrafi na nie reagować (pocieszy, poprawi humor itp.).",
+  "comment": "Podczas realizacji sprawności warto zwrócić uwagę na kształtowanie u zuchów empatii – współodczuwania nastrojów innych. Trzeba uczyć dzieci obserwowania wpływu zachowań własnych na nastrój innych – np. by starały się powstrzymać od słów, które miałyby wzbudzić zazdrość, smutek.",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9a5ba98e77e2d2cd8c767"
+  },
+  "title": "Pomocna dłoń",
+  "description": "Pomocna dłoń to zuchenka, która potrafi dostrzegać potrzeby innych i spontanicznie na nie reaguje.",
+  "tasks": "1. Wie, kim jest wolontariusz, zna kilka organizacji, które w Polsce pomagają potrzebującym.<br/>2. Pomaga koleżance z klasy lub gromady (np. w nauce).<br/>3. Dzieli się z innymi dziećmi swoimi rzeczami.<br/>4. Zaoszczędziła pieniądze i przekazała je na cele charytatywne.<br/>5. Za zgodą rodziców oddała swoją zabawkę, ubranie itp. komuś innemu.",
+  "comment": "ad.1. Należy pamiętać, by wybrane do współpracy organizacje reprezentowały wartości chrześcijańskie.<br/>ad.3. Mogą to być np. zabawki, słodycze itp.<br/>ad.5. Przy przekazywaniu rzeczy biedniejszym rozsądniejsze będzie oddawanie ubrań do koszy, puszek itp., a niebezpośrednio komuś uboższemu, by nie podkreślać tym samym różnic materialnych między dziećmi.",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9a647eb3d9427b886bd69"
+  },
+  "title": "Siostrzyczka",
+  "description": "Siostrzyczka to zuchenka, która potrafi zaopiekować się młodszymi, zorganizować im czas i nauczyć czegoś nowego.",
+  "tasks": "1. Opiekuje się młodszymi zuchami w gromadzie.<br/>2. Sama lub z innymi zuchenkami w mądry sposób zorganizowała zabawę.<br/>3. Bawi się z młodszym rodzeństwem lub małymi dziećmi.<br/>4. Nauczyła młodszą koleżankę nowej umiejętności.<br/>5. Po kłótni potrafi pierwsza wyciągnąć rękę do zgody i przebaczyć.",
+  "comment": "",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9a787eb3d9427b886bd6a"
+  },
+  "title": "Dama",
+  "description": "Dama to zuchenka, która zna zasady dobrego wychowania. Jest uczciwa i opiekuńcza.",
+  "tasks": "1. Jak prawdziwa dama traktuje każdego z szacunkiem.<br/>2. Opiekuje się młodszymi i słabszymi; stanie w ich obronie.<br/>3. Zna i przestrzega zasad savoir-vivre; dba o schludny wygląd.<br/>4. Podjęła trudne wyzwanie – wbrew swoim lękom i obawom.<br/>5. W dowolnej formie przedstawiła historię wybranej damy lub królewny, która mogłaby być dla niej wzorem.",
+  "comment": "Podczas realizacji sprawności należy zwrócić szczególną uwagę na relacje chłopcy – dziewczynki oraz na odpowiedni do wieku wizerunek dziewczynki-zuchenki. Trzeba ponadto pamiętać, że dama rozumiana jest tu nie jako postać historyczna, ale jako osoba posiadająca zespół szlachetnych cech.<br/>ad.3. Poprzez zdobywanie tej sprawności należy dzieciom zwrócić uwagę na uczciwe postępowanie w codziennym życiu np. fair play, nieprzechodzenie przez ulicę na czerwonym świetle, nieściąganie na sprawdzianach w szkole, kasowanie biletów w autobusie.<br/>ad.4. W ramach konkretnych zadań zuchenka powinna walczyć ze słabością lub kształcić dobry nawyk. Warto też zdawać sobie sprawę z tego, że prawidłowy przykład własny drużynowej stanowi, jak zawsze, istotny czynnik w pozytywnym zrealizowaniu tej sprawności.",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9abbeeb3d9427b886bd6b"
+  },
+  "title": "Gwiazdka betlejemska",
+  "description": "Gwiazdka betlejemska to zuchenka, która rozumie sens świąt Bożego Narodzenia, pielęgnuje związane z nimi tradycje.",
+  "tasks": "1. Wie, kiedy zaczyna się adwent. Uczestniczyła w roratach.<br/>2. Zrealizowała postanowienie adwentowe w prezencie dla Pana Jezusa.<br/>3. W dowolny sposób przedstawiła historię narodzenia Jezusa.<br/>4. Zna kolędy, potrafi zaśpiewać kilka z nich.<br/>5. Zna tradycje świąteczne. Stara się zachowywać je w swoim domu.<br/>6. Pomagała w domu podczas przygotowań świątecznych.<br/>7. Wykonała prezent dla bliskiej osoby, wysłała życzenia świąteczne",
+  "comment": "Podczas realizacji sprawności należy wykazać szczególną wrażliwość na warunki, w jakich zuchenka jest wychowywana i świadomość religijną jej bliskich oraz na odpowiednie dopasowanie zadań związanych z tradycjami świątecznymi do możliwości wykonania ich przez dziecko w domu.<br/>ad.5. Realizowanie zadania będzie szczególnie mocno zależało od sytuacji domowej zuchenki. Zachowanie tradycji to np. troska, by pod obrusemznalazło się sianko lub o pozostawienie wolnego miejsca przy stole – słowem to, na co zuchenka może mieć wpływ, jeśli o tym przypomni w domu (będzie wtedy chętna do wykonania zadania).",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9acd3eb3d9427b886bd6c"
+  },
+  "title": "Baranek wielkanocny",
+  "description": "Baranek wielkanocny to zuchenka, która rozumie sens Świąt Zmartwychwstania Pańskiego i pielęgnuje zwyczaje wielkanocne.",
+  "tasks": "1. Zrealizowała postanowienie wielkopostne, które było dla niej wyrzeczeniem.<br/>2. Wzięła udział w nabożeństwie wielkopostnym i wielkanocnym.<br/>3. Zna tradycje świąteczne. Stara się zachowywać je w swoim domu.<br/>4. Uczestniczyła w rekolekcjach wielkopostnych i potrafiła się podczas nich odpowiednio zachować.<br/>5. Pomogła w domu w przygotowaniach świątecznych.",
+  "comment": "Podczas realizacji sprawności należy wykazać szczególną wrażliwość na warunki, w jakich zuchenka jest wychowywana i świadomość religijną jej bliskich oraz na odpowiednie dopasowanie zadań związanych z tradycjami świątecznymi do możliwości wykonania ich przez dziecko w domu. Warto też zwracać uwagę na to, że piątek jest przez cały rok dniem tygodnia, w którym nie urządzamy dyskotek, nie tańczymy",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9bb1beb3d9427b886bd6d"
+  },
+  "title": "Błękitna Pani",
+  "description": "Błękitna Pani to zuchenka, która poznała postać Maryi i stara się ją naśladować na co dzień.",
+  "tasks": "1. Tak jak Maryja stara się być skromna i spieszyć innym z pomocą.<br/>2. Poznała wydarzenia z życia Maryi.<br/>3. Zna historię jednego z objawień maryjnych.<br/>4. Potrafi zagrać lub zaśpiewać kilka pieśni maryjnych.<br/>5. Wzięła udział w nabożeństwie poświęconym Matce Bożej.<br/>6. Przystroiła obraz, figurkę lub kapliczkę przydrożną w dowolny sposób.",
+  "comment": "",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9bbaceb3d9427b886bd6e"
+  },
+  "title": "Liturgistka",
+  "description": "Liturgistka to zuchenka, który rozumie, co dzieje się w poszczególnych momentach Mszy świętej, zna jej części oraz czynnie włącza się w przygotowanie oprawy Eucharystii.",
+  "tasks": "1. Wraz z gromadą uczestniczyła we Mszy świętej, podczas której podjęła się konkretnego działania.<br/>2. Wie, że są różne kolory szat liturgicznych.<br/>3. Zna części Mszy świętej.<br/>4. Wzięła udział w nabożeństwie odpowiednim dla danej pory roku liturgicznego.<br/>5. Zebrała informacje o nieznanym sobie dotąd święcie religijnym.",
+  "comment": "Sprawność ta ma uwrażliwić zuchenkę na pełne oraz świadome uczestnictwo we Mszy świętej (w całej liturgii i przystępowaniu do Komunii św.)<br/>ad.1. Zuchy powinny włączać się w przygotowanie liturgii właśnie po to, by rozumieć, czym jest Msza św., np. przeczytać czytanie lub modlitwę wiernych, zaśpiewać psalm; uczestniczyć w procesji z darami.",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9bc50eb3d9427b886bd6f"
+  },
+  "title": "Mała misjonarka",
+  "description": "Mała misjonarka to zuchenka, która wie, w jakim celu są organizowane misje i jak funkcjonują; stara się je wspierać – materialnie lub modlitwą.",
+  "tasks": "1. Wie, gdzie pracują misjonarze i na czym polega ich działalność.<br/>2. Zapoznała się z informacjami dotyczącymi misji.<br/>3. Sama lub z gromadą nawiązała kontakt z misjonarzem.<br/>4. Modli się w intencji misji.<br/>5. Wraz z gromadą, koleżankami podjęła działanie w celu materialnego wsparcia misji.",
+  "comment": "ad.1. Podczas realizacji sprawności należy zwrócić uwagę na tradycyjne misje i misje związane z problemami XXI wieku (np. brak powołań kapłańskich i zakonnych w krajach takich jak Holandia). Warto uzmysłowić zuchenkom, że misje to nie tylko powszechnie pojmowana działalność w krajach afrykańskich.<br/>ad.2. Warto poszukać informacji o misjach w mediach różnego typu, ale także, w miarę możliwości, odwiedzić wystawy misyjne i muzea.",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9bce4eb3d9427b886bd70"
+  },
+  "title": "Złote usta",
+  "description": "Złote usta to zuchenka, która jest prawdomówna; dotrzymuje danego słowa i nie używa brzydkich wyrazów",
+  "tasks": "1. Nie kłamie.<br/>2. Nie używa brzydkich wyrazów.<br/>3. Stosownie do sytuacji używa zwrotów grzecznościowych.<br/>4. Dotrzymuje danego słowa.<br/>5. Nie plotkuje.<br/>6. Z szacunkiem odnosi się do rozmówcy (nie przerywa, nie przekrzykuje go, nie obraża).",
+  "comment": "Sprawność ta powstała w odpowiedzi na często spotykaną u zuchów postawę nieprzyznawania się do kłamstwa, plotkowania. Przeznaczona jest dla zuchenek, które mają problem z prawdomównością. Warto przy okazji realizacji tej sprawności zwrócić uwagę na język, jakim zuchenka wyraża się o starszych (nauczycielach, rodzicach)",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9bd59eb3d9427b886bd71"
+  },
+  "title": "Święta...",
+  "description": "Święta... to zuchenka, która poznaje życie świętych postaci z dziejów Kościoła",
+  "tasks": "1. Poznała życie wybranej świętej.<br/>2. Ułożyła modlitwę związaną z wybraną świętą.<br/>3. Stara się naśladować wybraną świętą i zachęci do tego inną osobę.<br/>4. Odnalazła ślady świętej w wybranych dziedzinach sztuki.",
+  "comment": "Nazwa sprawności jest uzupełniona o imię świętej, której dana sprawność dotyczy (np. opiekuna gromady lub patrona zucha).<br/>ad.2. Trzeba zwrócić uwagę zuchenek, iż według nauki Kościoła Katolickiego nie modlimy się do świętych, ale przez modlitwę wypraszamy wstawiennictwo u Boga.",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eb9bdb1eb3d9427b886bd72"
+  },
+  "title": "Mała Ewangelistka",
+  "description": "Mała Ewangelistka to zuchenka, która wie, czym jest Pismo Święte, potrafi z niego korzystać i stara się je poznawać.",
+  "tasks": "1. Wie, z jakich część składa się Pismo Święte, ile w Nowym Testamencie jest Ewangelii i czyjego są autorstwa.<br/>2. Potrafi odnaleźć fragment Pisma św., odczytując skrócony zapis.<br/>3. Przedstawiła wybraną przypowieść lub historię biblijną.<br/>4. Zaproponowała i poprowadziła w gromadzie modlitwę, piosenkę lub grę o tematyce religijnej.",
+  "comment": "",
+  "category": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2633e9c73d4c48de74a0"
+  },
+  "title": "Przyjaciółka książki",
+  "description": "Przyjaciółka książki to zuchenka, która chętnie czyta książki i potrafi o nie dbać.",
+  "tasks": "1. Czyta książki, także te, które nie są lekturami szkolnymi.<br/>2. Potrafi zainteresować książkami innych – opowiedziała o ulubionym autorze lub ulubionej książce.<br/>3. Zna kilka książek dla dzieci i ich autorów.<br/>4. Ma swoją biblioteczkę. W razie potrzeby samodzielnie dokona naprawy lub oprawy książki.<br/>5. Odnalazła i wypożyczyła z biblioteki potrzebną jej książkę i oddała w terminie, w niezniszczonym stanie.",
+  "comment": "",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc26a2e9c73d4c48de74a1"
+  },
+  "title": "Poetka",
+  "description": "Poetka to zuchenka, która pisze wiersze i potrafi rymować. Używa poprawnej polszczyzny oraz interesuje się poezją",
+  "tasks": "1. Stara się poprawnie mówić i pisać po polsku.<br/>2. Lubi czytać wiersze, ma swojego ulubionego autora.<br/>3. Układa rymowanki, okrzyki, życzenia na dowolne okazje.<br/>4. Zaprezentowała swoje wiersze. Umie przyjąć krytykę.<br/>5. Zna postacie polskich poetów piszących dla dzieci i ich twórczość.",
+  "comment": "",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2737e9c73d4c48de74a2"
+  },
+  "title": "Bajarka",
+  "description": "Bajarka to zuchenka, która lubi czytać bajki, umie je opowiadać i odczytywać przesłanie, jakie niosą.",
+  "tasks": "1. Czyta baśnie, legendy, bajki; odnalazła w nich przesłanie.<br/>2. Wymyśliła i ciekawie opowiedziała wartościową historię, ułożyła własną bajkę.<br/>3. Umie urozmaicić swoją opowieść na kilka sposobów.<br/>4. Poznała legendy – odszukała w nich element prawdy.<br/>5. Potrafi odnaleźć znaczenie archaizmów używanych w legendach i podaniach.",
+  "comment": "ad.1. Należy zwrócić zuchenkom uwagę na różnicę między bajkami, baśniami a legendami (każda legenda zawiera ziarnko prawdy).<br/>ad.3. Podczas opowiadania bajek używa drobnych rekwizytów, modeluje głos itd.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2828e9c73d4c48de74a3"
+  },
+  "title": "Obieżyświat",
+  "description": "Obieżyświat to zuchenka, która poznaje różnorodność kultur, ludzi i krajów, orientuje się na mapie świata.",
+  "tasks": "1. „Odwiedziła” kilka krajów – wie, jak żyją w nich ludzie, jaki mają kolor skóry, mowę, zwyczaje.<br/>2. Wykonała, np. strój, zabawkę, potrawę charakterystyczną dla danego narodu.<br/>3. Poznała podstawowe słowa w języku “odwiedzanych” krajów.<br/>4. „Podróżując”, uczy się pląsów i piosenek związanych tematycznie z odwiedzanymi krajami.<br/>5. Pokazała na mapie kontynenty i oceany.<br/>6. Wskazała na mapie co najmniej jeden „odwiedzany” kraj, zna jego flagę, godło, stolicę i charakterystyczne punkty geograficzne.",
+  "comment": "Sprawność przeznaczona jest dla zuchenek, które poznają świat, niekoniecznie wyjeżdżając z własnego kraju. Należy postarać się, aby wiadomości uzyskane przez zuchenki wykraczały poza ogólnie znane fakty i stereotypy o poszczególnych państwach oraz ich mieszkańcach.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc28c4e9c73d4c48de74a4"
+  },
+  "title": "Podróżniczka",
+  "description": "Podróżniczka to zuchenka, która lubi podróżować, wie, dokąd jedzie i co ciekawego można tam zobaczyć.",
+  "tasks": "1. Czyta książki podróżnicze.<br/>2. Poznała postać podróżnika lub badacza.<br/>3. Wskazała na mapie trasę swojej podróży, zdobyła informację o miejscu, które odwiedzi.<br/>4. Podczas pobytu zebrała pamiątki, zdjęcia, informacje. Przedstawiła je po powrocie w ciekawej formie.<br/>5. Podróżowała przynajmniej trzema różnymi środkami lokomocji.",
+  "comment": "Sprawność przeznaczona jest dla zuchów podróżujących po Polsce i świecie. Ma zachęcić dzieci do świadomego poznawania nowych okolic. Należy podkreślić, że sprawność zdobywać mogą zarówno dzieci wyjeżdżające z rodzicami na wakacje, jak też uczestnicy zielonych szkół. Wyjazdy nie muszą być zagraniczne.<br/>ad.2. Zuchenka może poznać podróżnika osobiście lub za pośrednictwem książek, ew. spotkań z podróżnikami w ramach imprez turystycznych.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc29a3e9c73d4c48de74a5"
+  },
+  "title": "Regionalna",
+  "description": "To zuchenka, która poznała wybrany region Polski. Zna jego najważniejsze legendy, miejsca i zwyczaje.",
+  "tasks": "1. Zna zabytki, miejsca pamięci, ciekawostki danego regionu. Odwiedziła w nim ważne miejsca.<br/>2. Potrafi wskazać dany region na mapie Polski.<br/>3. Poznała legendy danego regionu.<br/>4. Zna regionalne święta. Jeśli to możliwe – weźmie udział w ich obchodach, przedstawi zwyczaje z nimi związane.<br/>5. Zapoznała się z obyczajami danego regionu (np. potrawy, taniec, śpiew, gwara).<br/>6. Wykonała element zdobnictwa lub stroju regionalnego.",
+  "comment": "Sprawność można zdobywać zarówno w swoim regionie, jak też poznając region, gdzie się jest na kolonii. Uwzględniając specyfikę danego terenu i jego kultury, można zmodyfikować zadania tak, by pozwalały najpełniej zapoznać się z danym miejscem i jego mieszkańcami (ich historią, kulturą). Nazwa sprawności zależy od nazwy mieszkańców poznawanego regionu Polski, np. Góralka, Kaszubka.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2a54e9c73d4c48de74a6"
+  },
+  "title": "Astronom",
+  "description": "Astronom to zuchenka, która obserwuje niebo, zna zjawiska astronomiczne.",
+  "tasks": "1. Pogłębiła swoją wiedzę astronomiczną (np. była w planetarium, obejrzała film, przeczytała książkę o gwiazdach).<br/>2. Zna postać Mikołaja Kopernika i wie, czego dokonał. Potrafi wymienić kilku wielkich astronomów w historii.<br/>3. Obserwowała niebo. Umie wskazać Gwiazdę Polarną i kilka gwiazdozbiorów.<br/>4. Wie, co to jest Układ Słoneczny, Słońce i Księżyc.<br/>5. Korzystała z mapy nieba, przy jej pomocy odszukała gwiazdozbiory.<br/>6. Zna podstawowe terminy astronomiczne (mgławica, orbita, kometa, meteor, lata świetlne, asteroidy itp.).",
+  "comment": "Podczas zbiórek warto używać mapy nieba.<br/>ad.4. We wrześniu 2006 ogłoszono, że Pluton nie jest planetą.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2af9e9c73d4c48de74a7"
+  },
+  "title": "Obserwatorka",
+  "description": "Obserwatorka to zuchenka, która jest spostrzegawcza i uważnie obserwuje świat wokół siebie. Potrafi dostrzec rzeczy, których inni nie zauważają.",
+  "tasks": "1. Umie obserwować: znalazła nieprawidłowości w ubiorze, rysunkach, swoim otoczeniu.<br/>2. Szczegółowo zapamiętuje sytuacje. Po upływie czasu potrafi je prawidłowo odtworzyć.<br/>3. Odczytała ślady pozostawione na śniegu, miękkim gruncie, w trawie.<br/>4. Ćwiczy zmysły",
+  "comment": "ad.4. Ćwicząc zmysły, np. dotrze do celu z zamkniętymi oczami, po zapachu, dźwięku; odszuka schowaną wiadomość, rozróżnia smaki, rozpoznaje przedmioty po dotyku.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2b85e9c73d4c48de74a8"
+  },
+  "title": "Doświadczalska",
+  "description": "Doświadczalska to zuchenka, która próbuje zrozumieć zjawiska zachodzące w otaczającym ją świecie, nie boi się przeprowadzać potrzebnych doświadczeń naukowych.",
+  "tasks": "1. Szuka odpowiedzi na pytania dotyczące otaczającego ją świata.<br/>2. Przeprowadziła w bezpieczny sposób doświadczenie naukowe.<br/>3. Posługuje się przyrządami pomiarowymi. Używa fachowego słownictwa związanego z eksperymentem.<br/>4. Odnalazła dorosłego specjalistę, który zweryfikował jej badania.<br/>5. Zna historie kilku wynalazków, postacie znanych wynalazców, badaczy.",
+  "comment": "ad.1. Dzieci z natury poszukują odpowiedzi na nurtujące je pytania (np. dlaczego morze jest słone, dlaczego żarówka świeci). Trzeba pomóc im w tych poszukiwaniach, pokazać, że wiedzę czerpie się z różnych źródeł (czasopisma, Internet, książki, rozmowy ze specjalistami, wystawy, programy telewizyjne).<br/>ad.2. Należy zwrócić uwagę na przestrzeganie zasad bezpieczeństwa i higieny podczas wykonywania wszelkiegorodzaju eksperymentów.<br/>ad.4. Specjalistą w danej dziedzinie może być nauczyciel danego przedmiotu lub rodzic zajmujący się profesjonalnie daną dziedziną.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2c11e9c73d4c48de74a9"
+  },
+  "title": "Lingwistka",
+  "description": "Lingwistka to zuchenka, która umie porozumieć się w obcym języku.",
+  "tasks": "1. Napisała krótki tekst w języku obcym.<br/>2. Potrafi powiedzieć w języku obcym kilka zdań o sobie. Rozumie podstawowe zwroty, odpowie na proste pytania.<br/>3. Przeczytała ze zrozumieniem fragment tekstu w języku obcym.<br/>4. Wie, w jakich krajach używa się języka, którego się uczy.<br/>5. Zna pląs lub piosenkę w języku obcym.",
+  "comment": "Poziom realizacji wymagań należy dopasować do stopnia zaawansowania w nauce języka obcego.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2d21e9c73d4c48de74aa"
+  },
+  "title": "Łamigłowa",
+  "description": "Łamigłowa to zuchenka, która lubi rozwiązywać różnego rodzaju łamigłówki, potrafi tworzyć własne.",
+  "tasks": "1. Zna kilka zuchowych szyfrów, umie się nimi posługiwać.<br/>2. Lubi rozwiązywać zadania matematyczne, ortograficzne, przyrodnicze i inne.<br/>3. Poszukuje łamigłówek dla dzieci.<br/>4. Wymyśla własne rebusy, krzyżówki, łamigłówki lub gry planszowe.<br/>5. Wytłumaczyła innym rozwiązanie problemu lub zadania.",
+  "comment": "",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2d7ce9c73d4c48de74ab"
+  },
+  "title": "Bajtek",
+  "description": "Bajtek to zuchenka, która umie obsługiwać komputer, wykorzystując go nie tylko do zabaw.",
+  "tasks": "1. Korzysta z komputera z umiarem, pamiętając o swoim zdrowiu (odpowiednia postawa, odległość, czas).<br/>2. Obsługuje kilka programów użytkowych.<br/>3. Wykorzystuje komputer do nauki, korzysta z programów edukacyjnych.<br/>4. Przy pomocy komputera sprawiła komuś miłą niespodziankę.<br/>5. Umie obsługiwać urządzenia peryferyjne (drukarka, skaner, nagrywarka itp.).",
+  "comment": "ad.1. Korzystanie z umiarem oznacza niezaniedbywanie swoich obowiązków oraz kontaktów z innymi.<br/>ad.2. Takich jak np. edytor tekstu, program graficzny, odtwarzacz muzyki itd.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2dcfe9c73d4c48de74ac"
+  },
+  "title": "Internautka",
+  "description": "Internautka to zuchenka, która umie wyszukać w Internecie potrzebne informacje, wykorzystuje Internet do kontaktu z innymi, omija pułapki związane z siecią",
+  "tasks": "1. Wyszukała w sieci potrzebne informacje na dany temat. Przeniosła je do pamięci komputera.<br/>2. Zna zagrożenia istniejące w sieci (np. wirusy, robaki itp.). Wie, jak bronić przed nimi komputer.<br/>3. Skontaktowała się przez Internet z drużynową, przyboczną lub zuchem.<br/>4. Wie, co to są prawa autorskie.<br/>5. Zna zasady bezpiecznego korzystania z Internetu (nie podaje swoich danych, nie otwiera plików z nieznanego źródła, jest ostrożna przy kontaktach z obcymi w sieci itd.).",
+  "comment": "ad.4. Istotne jest uświadomienie zuchence, że autorzy – twórcy dzieł – posiadają swoje prawa. Nielegalne jest więc np. ściąganie wypracowań z Internetu.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc2e5fe9c73d4c48de74ad"
+  },
+  "title": "Dziennikarka",
+  "description": "Dziennikarka to zuchenka, która pisze krótkie teksty o charakterze informacyjnym, potrafi rzetelnie opisać dane zdarzenie.",
+  "tasks": "1. Zna podstawowe formy wypowiedzi dziennikarskiej (artykuł prasowy, fotografia, audycja radiowa, film dokumentalny).<br/>2. Interesuje się ciekawymi wydarzeniami w Polsce, na świecie lub w swoim otoczeniu.<br/>3. Opisała starannie i bez błędów zaobserwowane zdarzenie i opublikowała swój tekst (gazetka gromady, gablota, kronika).<br/>4. Zebrała informacje dotyczące wybranej osoby i przeprowadziła z nią wywiad. Napisany tekst oddała do autoryzacji.<br/>5. W swojej pracy wykorzystuje różne sposoby pozyskiwania informacji i materiałów (notuje, nagrywa, fotografuje, szuka w Internecie).",
+  "comment": "ad.2. Zuchenka powinna oglądać programy informacyjne w obecności kogoś, kto będzie na bieżąco tłumaczył zaobserwowane zdarzenia i chronił przed drastycznymi scenami.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc30dee9c73d4c48de74ae"
+  },
+  "title": "Korespondentka",
+  "description": "Korespondentka to zuchenka, która nawiązuje i utrzymuje kontakt na odległość z drugą osobą. Potrafi zaadresować list, wysłać paczkę",
+  "tasks": "1. Pisze starannie i poprawnie, zna podstawowe zwroty grzecznościowe i urzędowe, wie jak ich użyć.<br/>2. Ułożyła kilka tekstów na różne okazje, napisała je na własnoręcznie wykonanej kartce lub papeterii.<br/>3. Napisała, poprawnie zaadresowała i wysłała różne rodzajelistów. Potrafi obsługiwać pocztę elektroniczną.<br/>4. Załatwiła na poczcie sprawę np. nadała paczkę, kupiła znaczki.<br/>5. Rozpoczęła korespondencję lub odpowiedziała na list – stara się podtrzymywać kontakt",
+  "comment": "ad.2. Np. życzenia imieninowe, urodzinowe, podziękowanie za coś.<br/>ad.5. Stałość korespondencji jest istotnym czynnikiem zdobycia sprawności.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc3146e9c73d4c48de74af"
+  },
+  "title": "Kolekcjonerka",
+  "description": "Kolekcjonerka to zuchenka, która zbiera przedmioty związane ze swoją pasją. Opiekuje się swoim zbiorem i ciekawie o nim opowiada",
+  "tasks": "1. Ma swoją pasję, gromadzi zbiory z nią związane. Starannie je przechowuje. Opisała swoją kolekcję.<br/>2. Zaprezentowała swoje eksponaty, ciekawie o nich opowiedziała.<br/>3. Zdobywa informacje o kolekcjonowanych rzeczach, czerpiąc wiedzę z różnorodnych źródeł.<br/>4. Używa „narzędzi” potrzebnych w pracy kolekcjonera.<br/>5. Poszerza swój zbiór o kolejne eksponaty – prowadzi wymianę z innymi zbieraczami.",
+  "comment": "ad.5. Przy cennych zbiorach zuchenki powinny uzyskać zgodę rodziców na wymianę.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc31b1e9c73d4c48de74b0"
+  },
+  "title": "Mała Europejka",
+  "description": "Mała Europejka to zuchenka, która poznaje kraje Europy, ich zwyczaje i kulturę.",
+  "tasks": "1. Wie, czym jest Unia Europejska i rozpoznaje jej podstawowe symbole.<br/>2. Zna podstawowe zwroty w co najmniej 5 językach europejskich (w tym jeden spoza UE).<br/>3. Zna kilka zwyczajów lub świąt charakterystycznych dla kultury dwóch krajów europejskich, w tym jednego spoza UE.<br/>4. Potrafi wymienić kilku sławnych współczesnych Europejczyków. Potrafi powiedzieć, czym się zajmowali/zajmują, czym się wsławili/czemu są słynni i z jakiego kraju pochodzili/pochodzą.",
+  "comment": "Należy zwrócić uwagę, żeby pojęcia „Europa” nie utożsamiać z Unią Europejską. Kraje nie będące członkami UE są często pomijane w szkolnych konkursach oraz relacjach mediów, a ich kultury są równie ciekawe i warto zaintere- sować nimi dzieci.<br/>ad.4. Ważne, by były to postacie mądre i wartościowe",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc3279e9c73d4c48de74b1"
+  },
+  "title": "Historyczka",
+  "description": "Historyczka to zuchenka, która poznaje historię Polski.",
+  "tasks": "1. Poznała postać ważną dla historii Polski i określiła okres, w którym żyła.<br/>2. Odwiedziła miejsce związane z historią Polski.<br/>3. Wie, jak powstał hymn państwowy, zna legendę o powstaniu godła i państwa polskiego.<br/>4. Potrafi uporządkować w kolejności najważniejsze wydarzenia z historii Polski.<br/>5. Wie, skąd można czerpać informacje dotyczące historii.",
+  "comment": "Należy zainteresować dzieci także historią nowszą, zachęcając je do poszukiwań we własnej rodzinie czy okolicy. Jeśli to możliwe, warto odwiedzić z zuchenkami miejsca takie jak archiwum czy muzeum historyczne.<br/>ad.4. Zuchenka (w zależności od wieku!) potrafi uporządkować wydarzenia od początków państwowości do współczesności, takie jak Chrzest Polski, Zjazd Gnieźnieński, koronacja Bolesława Chrobrego, rozbicie dzielnicowe, bitwa pod Grunwaldem, hołd pruski, rozbiory, powstanie listopadowe, powstanie styczniowe, I wojna światowa, II wojna światowa, Powstanie Warszawskie, przełom roku 1989.<br/>ad.5. Przeprowadziła własne poszukiwania, odwiedzając bibliotekę, czytając książki i czasopisma, oglądając programy edukacyjne, słuchając audycji i przeszukując zasoby Internetu oraz rozmawiając ze świadkami wydarzeń.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc32e9e9c73d4c48de74b2"
+  },
+  "title": "Strażniczka pamięci narodowej",
+  "description": "Strażniczka pamięci narodowej to zuchenka, która kultywuje tradycje narodowe.",
+  "tasks": "1. Pamięta o ważnych wydarzeniach z dziejów Polski, wie, jakie święta są z nimi związane.<br/>2. W swojej okolicy wskazała miejsca związane z walką o niepodległość.<br/>3. Zostawiła ślad swojej obecności w miejscu pamięci narodowej (np. posprzątała, złożyła kwiaty, zapaliła znicz).<br/>4. Zna patriotyczne pieśni i wiersze.<br/>5. Zachęciła innych do obchodów święta narodowego (np. wykonała plakat, zadbała o powieszenie flagi państwowej itp.).",
+  "comment": "ad.1. Ważne wydarzenia w dziejach Polski to na pewno Odzyskanie Niepodległości i Uchwalenie Konstytucji 3 Maja. Poziom sprawności w dużej mierze zależy od wieku i predyspozycji zuchenki. Należy o tym pamiętać, decydując o ilości omawianych wydarzeń, odwiedzanych miejsc, pieśni i wierszy.<br/>ad.2. Warto, by zuchenka wzięła udział w spotkaniach z seniorem, uczestnikiem walk o niepodległość, także z czasów PRL.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc339ee9c73d4c48de74b3"
+  },
+  "title": "Etnograf",
+  "description": "Etnograf to zuchenka, która wie, że kulturę polską tworzyli ludzie należący do różnych narodów. Poszerza swoje wiadomości dotyczące wybranej mniejszości narodowej.",
+  "tasks": "1. Wie, jaka mniejszość narodowa lub etniczna zamieszkiwała dany teren.<br/>2. Odnalazła znak obecności mniejszości narodowej lub etnicznej i udokumentowała to.<br/>3. Nauczyła się piosenki lub kilku słów w języku wybranej mniejszości.<br/>4. Poznała zwyczaje lub elementy kultury wybranej mniejszości narodowej.<br/>5. Jeśli to możliwe, nawiąże kontakt z przedstawicielem mniejszości narodowej.",
+  "comment": "Jest to sprawność przeznaczona zarówno dla gromad, które działają na terenie zamieszkałym przez mniejszości narodowe lub etniczne, w miejscu, gdzie w przeszłości współistniały kultury, jak też dla tych gromad, które w takim miejscu znajdują się tylko czasowo (jadą na kolonię czy zimowisko). Mniejszość narodowa to grupa obywateli polskich, definiująca siebie jako przynależną do innej niż polska narodowości, która to grupa ma poza Polską kraj – ojczyznę(np. Niemcy, Litwini, Białorusini, Żydzi, Ukraińcy itp.) lub grupa, która nie ma poza Polską kraju – ojczyzny (np. Łemkowie). Dla zuchenek należących do mniejszości sugerowane jest zdobywanie sprawności wnuczki ze szczególnym uwzględnieniem niezwykłych korzeni rodzinnych.<br/>ad.2. Udokumentowała, czyli np. zrobiła zdjęcie, dokładnie przerysowała, opisała.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc340ae9c73d4c48de74b4"
+  },
+  "title": "Wskazidroga",
+  "description": "Wskazidroga to zuchenka, która zna swoją najbliższą okolicę i orientuje się w terenie, umiejętnie korzystając z map, planów.",
+  "tasks": "1. Posługuje się planem miasta – wskazała drogę do wybranego punktu.<br/>2. W swojej okolicy zna drogę do ważnych miejsc (np. do apteki, biblioteki, sklepu, kościoła, na dworzec).<br/>3. Odwiedziła interesujące miejsca w swojej okolicy i zna ciekawostki z nimi związane.<br/>4. Wie, w jaki sposób dotrzeć do własnego domu z różnych miejsc. Potrafi skorzystać z transportu publicznego (sprawdziła rozkład jazdy, kupiła bilet). Poruszając się po ulicy, pamięta o zasadach bezpieczeństwa.",
+  "comment": "ad.4. W przypadku miejscowości nie posiadających komunikacji wewnętrznej, należy zwrócić uwagę na korzystanie z PKS i PKP.",
+  "category": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd93395926b9249439e60d"
+  },
+  "title": "Przyrodniczka",
+  "description": "Przyrodniczka to zuchenka, która odkrywa przyrodę. Uczy się ją obserwować i dostrzegać jej piękno.",
+  "tasks": "1. Poznaje piękno i tajemnice przyrody.<br/>2. Odnalazła zwierzę w jego środowisku naturalnym.<br/>3. Rozpoznała podstawowe gatunki roślin.<br/>4. Szanuje przyrodę. Wie, jakie zachowania są szkodliwe dla środowiska.<br/>5. Umie posługiwać się przewodnikiem przyrodniczym.<br/>6. Wie, po co są tworzone parki narodowe. Wskazała na mapie co najmniej dwa z polskich parków narodowych i wymieniła kilka gatunków roślin i zwierząt chronionych.",
+  "comment": "ad.1. Np. wzrost roślin, bieg rzeki i inne zmiany zachodzące w przyrodzie. Podczas poznawania świata przyrody należy zwrócić zuchenkom uwagę nie tylko na rośliny i ssaki, ale również owady. Dzieci potrafią być czasem wobec nich okrutne.<br/>ad.3. Np. kilka drzew, ziół i kwiatów.<br/>ad.5. Przewodnik przyrodniczy to pozycja popularnonaukowa zawierająca zdjęcia roślin i zwierząt z krótkimi opisami",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd93c95926b9249439e60e"
+  },
+  "title": "Wiewiórka",
+  "description": "Wiewiórka to zuchenka, która poznała przyrodę w swoim mieście. Interesuje się jego parkami i zamieszkującymi je zwierzętami.",
+  "tasks": "1. Zna parki w swojej okolicy. Wie, jak do nich trafić i jak się w nich zachować.<br/>2. Wie, jakie zwierzęta żyją w parku (gryzonie, owady, ptaki).<br/>3. Wie, jakie drzewa rosną w wybranym parku. Zwraca uwagę na gniazda, dziuple, „schowki”.<br/>4. Zatroszczyła się o swój park.",
+  "comment": "ad.4. Np. posprzątanie, przygotowanie tabliczek informacyjnych, założenie karmnika.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd94555926b9249439e60f"
+  },
+  "title": "Przyjaciółka lasu",
+  "description": "Przyjaciółka lasu to zuchenka, która często odwiedza las, umie się w nim zachować, nie niszczy go, nie boi się w nim przebywać i chce poznawać jego tajemnice.",
+  "tasks": "1. Często przebywa w lesie podczas spacerów i zabaw.<br/>2. Zna i potrafi wskazać warstwy lasu oraz rozróżnia roślinność w nich występującą.<br/>3. Znajduje ślady życia zwierząt ptaków i owadów w lesie.<br/>4. Zbiera dary lasu, nie niszcząc przy tym przyrody. Potrafi je wykorzystać.<br/>5. Zna kilka gatunków grzybów. Wie, które z nich można zbierać, a które są trujące.<br/>6. Chroni las.",
+  "comment": "Warto poznawać las, korzystając z wiedzy ekspertów, organizować spotkania z leśniczym, wycieczki ścieżkami dydaktycznymi itp.<br/>ad.2. Warstwy lasu w znaczeniu najprostszym, czyli drzewa, krzewy, poszycie itp.<br/>ad.5. Należy bezwzględnie uczulić dzieci na niebezpieczeństwa związane ze zbieraniem grzybów w ogóle, a zwłaszcza tych nieznanych.<br/>ad.6. Np. wie, jak nie dopuścić do pożaru.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd94e45926b9249439e610"
+  },
+  "title": "Botanik",
+  "description": "Botanik to zuchenka, która interesuje się roślinami. Zna gatunki roślin poszczególnych kontynentów, rozpoznaje charakterystyczne dla nich strefy roślinności.",
+  "tasks": "1. Wie, jakie strefy roślinności są charakterystyczne dla danego kontynentu i rozpoznaje typowe dla nich rośliny (np. Australia – eukaliptus, Afryka – baobab).<br/>2. Umie rozpoznać różne części roślin. Wie, do czego mogą służyć.<br/>3. Szuka informacji i ciekawostek na temat roślin (dotyczących ich budowy i funkcji w przyrodzie).<br/>4. Zna kilka roślin chronionych i wie, dlaczego nie można ich zrywać.<br/>5. Odwiedziła miejsce, gdzie można znaleźć ciekawe rośliny. Poznaje różne gatunki roślin, także egzotycznych.",
+  "comment": "ad.1. Chodzi tu o zapoznanie zuchenek z pojęciami typu sawanna, dżungla, tajga.<br/>ad.2. Nazwanie wielu części roślin wcale nie jest oczywiste, np. ziemniak to bulwa, ale marchew to korzeń.<br/>ad.5. Np. ogród botaniczny, palmiarnię, wystawę roślin.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd955d5926b9249439e611"
+  },
+  "title": "Zoolog",
+  "description": "Zoolog to zuchenka, która interesuje się zwierzętami, zna ich gatunki z różnych części świata.",
+  "tasks": "1. Zna zwierzęta z różnych kontynentów i środowiska ich życia.<br/>2. Potrafi wymienić zwierzęta żyjące na lądzie, w wodzie, w powietrzu, w ziemi.<br/>3. Obserwowała życie zwierząt na wolności i w niewoli oraz ich zachowanie względem człowieka.<br/>4. Rozróżnia tropy różnych zwierząt.<br/>5. Rozpoznaje gatunki zwierząt. Zna nazwy samca i samicy kilku gatunków.<br/>6. Wie, które zwierzęta są pod ochroną i w jaki sposób ludzie chronią gatunki zagrożone wyginięciem.",
+  "comment": "ad.1. patrz BOTANIK<br/>ad.4. Jest to zadanie bardzo trudne. Na pewno już osiągnięciem będzie, gdy zuchenka rozpozna, np. w lesie, czy konkretne ślady zostały pozostawione przez zwierzę leśne czy domowe.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd95b15926b9249439e612"
+  },
+  "title": "Przyjaciółka zwierząt",
+  "description": "Opiekunka zwierząt to zuchenka, która troszczy się o zwierzę domowe i dostrzega jego potrzeby",
+  "tasks": "1. Jest przyjaciółką zwierząt, nie pozwala ich krzywdzić.<br/>2. Systematycznie opiekuje się zwierzęciem domowym. Wie, jak je karmić, pielęgnować, zapobiegać chorobom.<br/>3. Pogłębia swoją wiedzę dotyczącą opieki nad zwierzęciem, np. pójdzie z nim do weterynarza albo zasięgnie porady u eksperta bądź przeczyta książkę.<br/>4. Przedstawiła gromadzie informacje na temat jednego gatunku zwierząt domowych.",
+  "comment": "Zuchenka nie musi opiekować się wyłącznie swoim zwierzęciem, może to być np. zwierzę ze schroniska. Czas realizacji sprawności zależy od indywidualnych możliwości zuchenki.<br/>ad.1. Warto rozszerzyć sposób realizacji tego zadania o formę sprawdzającą wiedzę zuchenki na temat pielęgnacji zwierząt.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd96475926b9249439e613"
+  },
+  "title": "Przyjaciółka ptaków",
+  "description": "Przyjaciółka ptaków to zuchenka, która interesuje się ptakami, pogłębia wiedzę na ich temat.",
+  "tasks": "1. Rozpoznaje po wyglądzie kilka gatunków ptaków. Zna kilka informacji o każdym z nich.<br/>2. Obserwowała życie ptaków na wolności, nie zakłócając ich życia.<br/>3. Obserwowała życie ptaka w niewoli i jego zachowanie względem ludzi. Dowiedziała się, jak zadbać o jego potrzeby.<br/>4. Znalazła kilka ptasich piór. Wie, do czego służą ptakom poszczególne ich rodzaje.<br/>5. Zaopiekowała się karmnikiem dla ptaków. Systematycznie prowadziła ptasią stołówkę dla zimujących ptaków lub w lecie/jesienią zgromadziła ptasi pokarm.",
+  "comment": "Przyjaciółka ptaków nie niszczy gniazd, potrafi wytłumaczyć innym ważność takich zachowań.<br/>ad.2. Np. odnalazła gniazdo, wypatrzyła kilka ptaków, widziała, jak zdobywają pokarm.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd96945926b9249439e614"
+  },
+  "title": "Wędrowniczka",
+  "description": "Wędrowniczka to zuchenka, która lubi wędrować i potrafi przygotować się do wyprawy",
+  "tasks": "1. Lubi wycieczki, była na kilku bez względu na pogodę. Obserwuje otaczającą przyrodę.<br/>2. Ma swój ekwipunek turystyczny. Wie, jak się ubrać zależnie od pogody, pory roku, wykonywanego zadania.<br/>3. Potrafi spakować swój plecak.<br/>4. Wie, jak uniknąć przeziębienia, odparzenia, odmrożenia nóg.<br/>5. Umie rozpoznać szlak i bezpiecznie poruszać się po nim, wskaże miejsca odpoczynku. Uczy się korzystać z mapy(szkicu drogi).",
+  "comment": "ad.2. Wędrowniczka to zuchenka, która wie, jakich rzeczy nie można zapomnieć np. na wycieczkę w góry itp.<br/>ad.4. Starsze zuchy powinny poznać sposoby wyznaczania kierunków świata.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd96e75926b9249439e615"
+  },
+  "title": "Traper",
+  "description": "Traper to zuchenka posiadająca umiejętności puszczańskie. Jest zaradna i umie poradzić sobie w lesie.",
+  "tasks": "1. Pod okiem drużynowej, nie niszcząc przyrody, zrobiła leśną budowlę, np. szałas.<br/>2. Potrafi zamaskować siebie i swoją budowlę w lesie.<br/>3. Rozpoznaje różne rodzaje drewna i potrafi je odpowiednio zastosować (łuk, rzeźba).<br/>4. Zna techniki potrzebne traperowi. Potrafi posłużyć się potrzebnymi narzędziami pionierskimi.<br/>5. Obserwowała las w określonej porze dnia i opowiedziała o swoich spostrzeżeniach innym zuchom.",
+  "comment": "Sprawność przeznaczona jest dla starszych zuchenek, nie mogą one jednak w żadnym wypadku przebywać same w lesie; drużynowa musi również wyjaśnić zuchom, jakie korzyści przynosi obserwowanie lasu i jego mieszkańców.<br/>ad.4. Pod pojęciem technik należy rozumieć np. podstawowe węzły i znaki patrolowe.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd972d5926b9249439e616"
+  },
+  "title": "Ekoludek",
+  "description": "Ekoludek to zuchenka, która uczy się chronić środowisko naturalne i oszczędnie korzystać z jego zasobów",
+  "tasks": "1. Zna zagrożenia środowiska i wie, jak z nimi walczyć.<br/>2. Wie, jak i dlaczego segreguje się śmieci. Segregowała je w domu, szkole lub harcówce – przynajmniej przez miesiąc.<br/>3. Dba o to, by nie marnować wody, prądu, papieru itd.<br/>4. Zna produkty ekologiczne (papierowe torby, zeszyty makulaturowe) i ich oznaczenia, stara się ich używać.<br/>5. Brała udział np. w sprzątaniu lasu, parku, akcji sadzenia drzewek itp.<br/>6. Propaguje „ekologiczny styl życia” w swoim otoczeniu.",
+  "comment": "ad.4. Staramy się kształcić nawyki ekologiczne od najmłodszych lat, uczymy rozpoznawać, jakie produkty są ekologiczne, których warto używać, aby chronić środowisko.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd97785926b9249439e617"
+  },
+  "title": "Ogrodniczka",
+  "description": "Ogrodniczka, to zuchenka, która systematycznie i dokładnie opiekuje się roślinami w swoim otoczeniu (np. w domu, ogrodzie).",
+  "tasks": "1. Hoduje (zasadziła, przesadziła, przycięła) dowolną roślinę w doniczce, na balkonie lub w ogrodzie. Zna jej potrzeby.<br/>2. Wie, jak wykorzystać wyhodowane rośliny.<br/>3. Umie rozpoznać rośliny rosnące w ogrodzie, używając różnych zmysłów.<br/>4. Zna zarówno zwierzęta pożyteczne dla roślin, jak i szkodniki.<br/>5. Uczestniczyła w pracach ogrodniczych. Wie, jakich narzędzi może podczas nich użyć.",
+  "comment": "Ogrodniczka to zuchenka, która poznaje potrzeby różnych roślin, rozumie, dlaczego niektóre trzeba podlewać częściej, inne rzadziej, jedne potrzebują więcej słońca, inne mniej itp.<br/>ad.2. Np. przyrządziła z nich prosty posiłek, zrobiła bukiet.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd97c05926b9249439e618"
+  },
+  "title": "Zielarka",
+  "description": "Zielarka to zuchenka, która zna i potrafi odnaleźć podstawowe rośliny lecznicze. Wie, jakie mają zastosowanie.",
+  "tasks": "1. Odnalazła rośliny lecznicze i rozpoznała rośliny szkodliwe.<br/>2. Zna i stosuje zasady prawidłowego zbierania ziół.<br/>3. Wie, jak ususzyć zioła (liść maliny, kwiat rumianku, babkę, kwiatostan czarnego bzu itp.).<br/>4. Umie rozpoznawać zioła po zapachu, kolorze, smaku (wywar lub herbata). Wie, jakie mają działanie.",
+  "comment": "Sprawność bardzo trudna, wymaga starannego przygotowania się drużynowej, np. w zakresie prawidłowego zbierania ziół.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd980a5926b9249439e619"
+  },
+  "title": "Rolniczka",
+  "description": "Rolniczka to zuchenka, która poznała życie na wsi, podjęła się prostych prac gospodarskich.",
+  "tasks": "1. Podpatrzyła dzień z życia gospodarstwa wiejskiego.<br/>2. Poznała zwierzęta gospodarskie. Wie, jak się przy nich zachować. Pomogła w ich karmieniu i pielęgnacji.<br/>3. Wykonała proste prace gospodarskie.<br/>4. Wie, jak się zachować w pobliżu maszyn rolniczych.<br/>5. Rozpoznała po kłosach cztery zboża; wie, do czego są przydatne.<br/>6. Poznała ludowe zwyczaje (przysłowia, przyśpiewki).",
+  "comment": "Warto tak zaplanować pracę gromady, żeby zuchenki poznały życie w gospodarstwie wiejskim co najmniej podczas dwóch pór roku.<br/>ad.3. Np. pielenie, wybieranie kamieni, zgrabienie siana, pomoc przy żniwach.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd98505926b9249439e61a"
+  },
+  "title": "Kwiaciarka",
+  "description": "Kwiaciarka to zuchenka, która zna rośliny ozdobne i umie je wykorzystać.",
+  "tasks": "1. Potrafi rozpoznać i odnaleźć kilka gatunków roślin o ozdobnych kwiatach i liściach.<br/>2. Wie, które rośliny nadają się do zasuszenia. Zna domowe sposoby przygotowywania suszek.<br/>3. Ułożyła bukiet z kwiatów świeżych lub suszonych i podarowała go komuś.<br/>4. Przygotowała dekorację z kwiatów.<br/>5. Poznała różnorodne odmiany kwiatów.",
+  "comment": "ad.4. Np. stroik na Boże Narodzenie, palmę na Wielkanoc lub zakładkę do książki.<br/>ad.5. Jeśli trudno będzie znaleźć wystawę lub ogród botaniczny, warto zastosować inne rozwiązanie np. odwiedzić ogród sąsiadki, która hoduje rzadkie okazy kwiatów.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd98995926b9249439e61b"
+  },
+  "title": "Chmurka",
+  "description": "Chmurka to zuchenka, która potrafi obserwować pogodę.",
+  "tasks": "1. Zna obieg wody w przyrodzie. Za pomocą wykonanego przyrządu dokonała pomiaru świadczącego np. o zmianach ciśnienia.<br/>2. Wie, skąd i dlaczego napływa ciepłe i zimne powietrze. Potrafi odczytać mapę pogody (w TV, w gazecie, Internecie).<br/>3. Zaobserwowała, jak przy różnej pogodzie zachowuje się przyroda (dżdżownice, jaskółki, szyszki itp.).<br/>4. Poznała ludowe sposoby przepowiadania pogody.",
+  "comment": "Trzeba pomóc zuchence dostrzec korzyści, jakie wynikają z umiejętności obserwowania pogody – dzięki temu lepiej zrozumie zmiany zachodzące w przyrodzie.<br/>ad.2. Starsze zuchenki można dodatkowo zainteresować rodzajami chmur.<br/>ad.4. Np. przysłowia, kolor chmur o zachodzie słońca.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd98ee5926b9249439e61c"
+  },
+  "title": "Zimoludek",
+  "description": "Zimoludek to zuchenka ciekawa zmian w przyrodzie zimą.",
+  "tasks": "1. Zna kilka zabaw na śniegu.<br/>2. Zrobiła śnieżną budowlę.<br/>3. Umie zabezpieczyć się przed zimnem.<br/>4. Podpatrzyła zimowe życie zwierząt.<br/>5. Pomaga zwierzętom i roślinom przetrwać zimę.",
+  "comment": "ad.3. Oddycha przez nos, wysuszy buty itp.<br/>ad.4. Np. rozpoznaje ich tropy na śniegu; wie, jak przygotowały się do przetrwania zimy.<br/>ad.5. Np. sposoby ochrony roślin i zwierząt przed zimnem, dokarmianie.",
+  "category": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb314ed88474c402ce56d"
+  },
+  "title": "Grosik",
+  "description": "Grosik to zuchenka, która jest oszczędna, rozsądnie wydaje pieniądze.",
+  "tasks": "1. Jest uczciwa i oszczędna, zawsze rozlicza się z powierzonych pieniędzy.<br/>2. Umie liczyć w pamięci i na kalkulatorze.<br/>3. Zna ceny podstawowych produktów, potrafi przewidzieć koszt zakupów na podstawie przygotowanej listy.<br/>4. Umie zaoszczędzić pieniądze i wydać je w pożyteczny sposób.<br/>5. Wie, jakich pieniędzy używali nasi przodkowie i jakich używa się w innych krajach.",
+  "comment": "ad.3. Warto zwrócić uwagę na ogólną świadomość cen, by zuchenki wiedziały, ile kosztują artykuły spożywcze, a ile trzeba wydać na zabawki, ubrania itd.",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb37fed88474c402ce56e"
+  },
+  "title": "Kuchcik",
+  "description": "Kuchcik to zuchenka, która potrafi samodzielnie przygotować prosty posiłek, jest staranna i ostrożna podczas prac kuchennych.",
+  "tasks": "1. Przygotowała prosty posiłek, prawidłowo parzy herbatę, gotuje mleko, kakao.<br/>2. Przyrządziła surówki, sałatki i desery.<br/>3. Pomaga w domu podczas pracy w kuchni.<br/>4. Rozpoznała podstawowe przyprawy i produkty spożywcze po zapachu i smaku.<br/>5. Umie posługiwać się książką kucharską, odnajdzie przepis na wybraną potrawę.<br/>6. Zachowuje czystość podczas prac kuchennych – myje ręce przed i po pracy, pamięta o myciu warzyw i owoców.",
+  "comment": "Istotne jest, aby zuchenka zdobywająca tę sprawność potrafiła odmierzyć lub odważyć potrzebne ilości produktów. Należy zwrócić uwagę na to, czy domowe warunki zuchenki pozwalają jej na realizację zadań. Warto też podejmować różne kulinarne przedsięwzięcia na zbiórkach.",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb3d7ed88474c402ce56f"
+  },
+  "title": "Cukierniczka",
+  "description": "Cukierniczka to zuchenka, która potrafi przyrządzić proste desery i inne słodkości oraz estetycznie je podać.",
+  "tasks": "1. Upiekła ciasto lub ciasteczka.<br/>2. Przygotowała wg przepisu budyń, kisiel lub galaretkę.<br/>3. Przyrządziła prosty deser na zimno.<br/>4. Pomogła w przygotowaniu wypieków świątecznych lub wie, jakie stanowią tradycję świąteczną.<br/>5. Zachowuje czystość podczas przygotowywania wypieków i deserów; estetycznie je podaje.<br/>6. Potrafi udekorować stół na różne okazje.",
+  "comment": "ad.4. Czasem zuchenka nie może uczestniczyć w przygotowaniach świątecznych, co nie powinno warunkować zdobycia tej sprawności.",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb416ed88474c402ce570"
+  },
+  "title": "Igiełka",
+  "description": "Igiełka to zuchenka, która potrafi posługiwać się igłą i nitką, dokonać nieskomplikowanych napraw ubrania i uszyć prostą rzecz.",
+  "tasks": "1. Ma swój zestaw krawiecki (igła i nitka, guziki, agrafki), potrafi się nim posługiwać.<br/>2. Nie marnuje resztek materiałów – ze skrawków uszyła coś pożytecznego, np. zabawkę, podarunek, element stroju.<br/>3. Dba o mundur: przyszyła guzik, sprawność, zaszyła rozdarcie.<br/>4. Jest staranna i dokładna podczas pracy.",
+  "comment": "",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb44ced88474c402ce571"
+  },
+  "title": "Hafciarka",
+  "description": "Hafciarka to zuchenka, która zna kilka ściegów i umie wyhaftować ciekawy wzór.",
+  "tasks": "1. Dba o swój „kącik hafciarski”, ma w nim różne rodzaje materiałów i nici do haftów.<br/>2. Zaprojektowała i wykonała monogram lub ozdobę na chusteczkę, kołnierzyk itp.<br/>3. Wyhaftowała element do ozdoby zuchówki lub mieszkania, stosując różne rodzaje ściegów.<br/>4. Posługuje się podstawowymi przyrządami hafciarskimi.<br/>5. Zna co najmniej jeden wzór haftu regionalnego",
+  "comment": "",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb488ed88474c402ce572"
+  },
+  "title": "Czyścioszka",
+  "description": "Czyścioszka to zuchenka, która dba o higienę osobistą i porządek wokół siebie.",
+  "tasks": "1. Zna i stosuje zasady higieny.<br/>2. Utrzymuje swoje rzeczy w czystości i porządku (np. pierze bieliznę osobistą, czyści buty, składa ubrania).<br/>3. Starannie sprząta swój pokój (kącik) lub salę na kolonii.<br/>4. Dba o powierzone jej rzeczy.<br/>5. Systematycznie pomaga w pracach domowych.",
+  "comment": "",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb4d4ed88474c402ce573"
+  },
+  "title": "Eskulap",
+  "description": "Eskulap to zuchenka, która dba o zdrowie, potrafi zaradzić w drobnych wypadkach, umie wezwać lekarza.",
+  "tasks": "1. Wie, jak zaradzić w przypadku skaleczenia, krwotoku z nosa, opuchlizny, oparzenia, ukąszenia przez owada; umie zachować się przy chorym.<br/>2. Zna podstawowe leki i środki opatrunkowe; wie, jak należy je przechowywać.<br/>3. Zna nazwy i zastosowanie podstawowych ziół leczniczych.<br/>4. Umie wezwać pomoc lekarską; wie, gdzie jest najbliższa apteka, przychodnia, szpital.<br/>5. Ubiera się zależnie od pory roku i sytuacji (np. wycieczka, zabawa w pomieszczeniu).<br/>6. Stara się dzielnie znosić ból.",
+  "comment": "Przy realizacji tej sprawności należy zwrócić uwagę, by zuchenki same nie podawały żadnych lekarstw i wiedziały, że nie mogą ich same (bez wiedzy dorosłych) przyjmować.",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb516ed88474c402ce574"
+  },
+  "title": "Sobieradek",
+  "description": "Sobieradek to zuchenka, która wyróżnia się zaradnością, potrafi coś naprawić i zbudować.",
+  "tasks": "1. Skonstruowała drobny przedmiot potrzebny w gromadzie lub jako podarunek dla innych.<br/>2. Dokonała prostych napraw (przybiła, wyczyściła, podkleiła, przyszyła itp.).<br/>3. Utrzymuje w porządku swoje przybory do majsterkowania, po wykonanej pracy sprząta.<br/>4. W czasie pracy zachowuje należytą staranność i ostrożność.",
+  "comment": "",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb547ed88474c402ce575"
+  },
+  "title": "Fryzjerka",
+  "description": "Fryzjerka to zuchenka, która pielęgnuje włosy, potrafi wykonać kilka fryzur z włosów krótkich i długich.",
+  "tasks": "1. Zna i stosuje zasady pielęgnacji włosów.<br/>2. Wykonała kilka fryzur z włosów długich (np. różnego rodzaju warkocze, koki) i krótkich.<br/>3. Wymyśliła ciekawą fryzurę – fantazyjnie spięła długie włosy.<br/>4. Posiada swoje przybory fryzjerskie i utrzymuje je w czystości.",
+  "comment": "",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeb5a6ed88474c402ce576"
+  },
+  "title": "Wnuczka",
+  "description": "Wnuczka to zuchenka, która opiekuje się osobami starszymi; szanuje je, chce się od nich czegoś nauczyć.",
+  "tasks": "1. Zna dzieje swojej rodziny i historię rodzinnej pamiątki.<br/>2. Odwiedza swoich dziadków, a jeśli nie jest to możliwe, pisze listy, dzwoni. Pamięta o ich świętach.<br/>3. Dowiedziała się, jak wyglądało dzieciństwo dziadków – życie domowe, zabawki itd.<br/>4. Sprawiła radość komuś starszemu.<br/>5. Pomaga starszym w drobnych pracach domowych.",
+  "comment": "Sprawność ta przeznaczona jest również dla zuchenek, które nie mają swoich dziadków (wówczas próbują w miarę możliwości odwiedzać ich groby oraz dotrzeć do innych osób starszych i od nich uczyć się mądrości życiowej).<br/>ad.4. Np. wykonała prezent, wzięła udział w przedstawieniu.",
+  "category": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66b6f9aeb564468b56827"
+  },
+  "title": "Malarka",
+  "description": "Malarka to zuchenka, która maluje różne typy obrazów, rozróżnia i staranie dobiera do nich barwy oraz ogląda prace innych artystów.",
+  "tasks": "1. Maluje na podstawie wzoru, z natury oraz według własnego pomysłu.<br/>2. Wie, jak z trzech podstawowych barw otrzymać inne.<br/>3. Wykonała pracę malarską potrzebną w gromadzie.<br/>4. Poznała nową technikę malarską.<br/>5. Po wykonanej pracy pozostawia miejsce w czystości, myje i suszy pędzle, porządkuje farby, odkłada wszystko na swoje miejsce.<br/>6. Oglądała prace malarzy. Zna obrazy wybranego malarza polskiego.",
+  "comment": "ad.6. Warto tak zaplanować pracę, by zuchenka zobaczyła wystawę wybranego malarza, ale zadanie może być zrealizowane również z wykorzystaniem reprodukcji.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66bf39aeb564468b56828"
+  },
+  "title": "Plastyczka",
+  "description": "Plastyczka to zuchenka, która ma wiele pomysłów plastycznych i potrafi je zrealizować. Z pozornie niepotrzebnych rzeczy umie zrobić coś pożytecznego, estetycznego.",
+  "tasks": "1. Umie kreatywnie wykorzystać przedmioty codziennego użytku do tworzenia konstrukcji potrzebnych w zabawie.<br/>2. Potrafi tworzyć prace różnymi technikami.<br/>3. Wykonała drobiazgi z oryginalnych materiałów.<br/>4. Wykonała pracę, używając pisma ozdobnego.<br/>5. Zaprezentowała swoje prace. Umie przyjąć krytykę.<br/>6. Pomogła innej zuchence w zrobieniu elementu ozdobnego.",
+  "comment": "ad.1. Np. wieża z krzeseł, rakieta z kartonów.<br/>ad.3. Np. łupiny od orzecha, serwetki papierowe, klamerki do prania.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66c839aeb564468b56829"
+  },
+  "title": "Rzeźbiarka",
+  "description": "Rzeźbiarka to zuchenka, która tworzy trójwymiarowe dzieła, poznaje rzeźby innych artystów.",
+  "tasks": "1. Wykonała rzeźbę własnego projektu.<br/>2. Zna zasady proporcji (prawidłowo odwzorowuje rzeczywistość); potrafi stworzyć projekt wg tych zasad.<br/>3. Używa różnych materiałów i tworzy swoje dzieła różnymi technikami.<br/>4. Dba o miejsce pracy i przybory, po pracy sprząta.<br/>5. Zna kilka rzeźb sławnych twórców.",
+  "comment": "ad.3. Materiały to np. modelina, gips, glina, masa papierowa, masa solna, plastelina, kora, drewno.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66ce79aeb564468b5682a"
+  },
+  "title": "Kronikarka",
+  "description": "Kronikarka to zuchenka, która uważnie obserwuje otoczenie i spisuje swoje spostrzeżenia w sposób zrozumiały, ciekawy i estetyczny.",
+  "tasks": "1. Opisała starannie i poprawnie kilka dni (zbiórek) w kronice. Starała się jak najwierniej odtworzyć historię, wydarzenie.<br/>2. Ozdobiła wpisy rysunkami.<br/>3. Umieściła w kronice zdjęcia lub inne pamiątki ilustrujące opisane zdarzenie.<br/>4. Wykorzystała różne rodzaje pisma.<br/>5. Starannie prowadzi zeszyty, nie robi błędów ortograficznych.<br/>6. Przeczytała opis wydarzenia umieszczonego w gazecie dziecięcej, kronice, książce.",
+  "comment": "ad.5. Niektóre dzieci mogą mieć kłopoty z ortografią z powodu skłonności do dysleksji. Należy wtedy formułować to zadanie ze szczególnym wyczuciem sytuacji.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66d509aeb564468b5682b"
+  },
+  "title": "Fotograf",
+  "description": "Fotograf to zuchenka, która utrwala otoczenie na zdjęciach, poznaje tajniki fotografowania.",
+  "tasks": "1. Utrwaliła na zdjęciu ciekawy moment z życia gromady. Przekazała zdjęcie do kroniki.<br/>2. Wykonała różne rodzaje zdjęć.<br/>3. Uporządkowała zrobione zdjęcia.<br/>4. Zaprezentowała swoje prace.<br/>5. Zna podstawowe zasady fotografowania.<br/>6. Zapoznała się z pracami profesjonalnego fotografa.",
+  "comment": "ad.2. Np. przyrodnicze, portret, krajobraz, zdjęcie w ruchu, zbliżenie.<br/>ad.3. W zależności od nośnika: włożyła do albumu, opisała, stworzyła katalog w komputerze.<br/>ad.4. W formie wystawy, pokazu multimedialnego itd.<br/>ad.5. Takie jak użycie zoomu, lampy błyskowej, wykorzystanie prawidłowego oświetlenia.<br/>ad.6. Warto odwiedzić studio fotograficzne, ale zadanie to może być wykonane także poprzez obejrzenie wystawy, albumu.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66daa9aeb564468b5682c"
+  },
+  "title": "Muzyk",
+  "description": "Muzyk to zuchenka, która gra na instrumencie i interesuje się muzyką.",
+  "tasks": "1. Zagrała melodię na wybranym instrumencie.<br/>2. Zaakompaniowała gromadzie na instrumencie.<br/>3. Zna nazwy i wartości nut, podstawowe znaki muzyczne.<br/>4. Zna kilku kompozytorów (polskich i zagranicznych) oraz co najmniej jeden utwór każdego z nich.<br/>5. Oglądała pracę muzyków, była na koncercie.<br/>6. Rozróżnia kilka rodzajów muzyki.",
+  "comment": "ad.2. Młodsze zuchenki mogą grać na instrumentach perkusyjnych np. bęben, kastaniety, talerze, werbel, trójkąt, dzwonki.<br/>ad.5. Koncert, zależnie od możliwości, może być w wykonaniu profesjonalnych muzyków, ale także amatorów (np. harcerek z bratniej drużyny). „Oglądanie pracy muzyków” to nic innego, jak obserwowanie, jak orkiestra przygotowuje się do koncertu, stroi instrumenty itp.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66e159aeb564468b5682d"
+  },
+  "title": "Mistrzyni gier i zabaw",
+  "description": "Mistrzyni gier i zabaw to zuchenka, który chętnie bierze udział w różnych grach i zabawach, zachęcając do tego innych.",
+  "tasks": "1. Zna różne rodzaje gier.<br/>2. Przestrzega zasad fair play.<br/>3. Wcieliła się w rolę sędziego.<br/>4. Nigdy się nie nudzi. Nauczyła innych gry, zabawy.<br/>5. Wykonała do zabawy potrzebny rekwizyt lub wykorzystała przedmiot codziennego użytku.",
+  "comment": "ad.1. Sprawność zakłada znajomość gier zespołowych, planszowych, strategicznych, ruchowych i innych.<br/>ad.2. W szczególności: umie przegrywać, nie obnosi się ze zwycięstwem, potrafi dopingować inne zuchy.<br/>ad.3. Postać sędziego może pojawić się nie tylko w grach, które z założenia zakładają jego obecność. Zuchenka-sędzia może obserwować przebieg każdej gry, reagować, kiedy zasady zostają naruszone.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66e709aeb564468b5682e"
+  },
+  "title": "Aktorka",
+  "description": "Aktorka to zuchenka, która odgrywa różnorodne role, chętnie bierze udział w przedstawieniach wystawianych przed publicznością.",
+  "tasks": "1. Poprawnie wypowiada teksty aktorskie, modeluje głos w zależności od charakteru danej roli.<br/>2. Wraz z gromadą przygotowała przedstawienie, podczas którego, pokonując tremę, zaprezentowała swoją rolę przed publicznością.<br/>3. Za pomocą pantomimy przedstawiła różne nastroje, uczucia, czynności.<br/>4. Odgrywa różne role w teatrze samorodnym.<br/>5. Była w teatrze. Obserwując grę aktorów, wzbogaciła swoje umiejętności sceniczne.",
+  "comment": "ad.4. Nie tylko role postaci, także zwierząt, przedmiotów.<br/>ad.5. Przedstawienie, zależnie od możliwości, może być w wykonaniu profesjonalnych aktorów, ale także amatorów (np. harcerek z bratniej drużyny).",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66ea89aeb564468b5682f"
+  },
+  "title": "Charakteryzatorka",
+  "description": "Charakteryzatorka to zuchenka, która potrafi zmienić wygląd osoby adekwatnie do roli, jaką ma ona odgrywać.",
+  "tasks": "1. Przy pomocy farb do twarzy, kosmetyków, dodatkowych materiałów (peruka, sztuczne wąsy, broda) potrafi zmienić wygląd twarzy bądź ciała aktora. Usunęła charakteryzację w bezpieczny sposób.<br/>2. Rozróżnia części garderoby. Dobrała strój dla aktora.<br/>3. Wie, jak ubierali się ludzie w różnych epokach, kulturach, regionach.<br/>4. Przygotowała dowolny dodatek stroju.<br/>5. Dopasowała fryzurę do roli (np. eleganckiej pani, dziewczynki, babci)",
+  "comment": "",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66ee19aeb564468b56830"
+  },
+  "title": "Dekoratorka",
+  "description": "Dekoratorka to zuchenka, która potrafi estetycznie ozdobić wnętrze.",
+  "tasks": "1. Zaprojektowała dekorację wnętrza.<br/>2. Wykonała element dekoracji. W swoich pracach wykorzystała różne materiały.<br/>3. Umie pracować w grupie, liczy się ze zdaniem innych dekoratorów, słucha uwag.<br/>4. Podczas prac zachowuje należytą ostrożność.",
+  "comment": "ad.2. Np. płótno, styropian, kartony, farby, dary przyrody itd.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66f229aeb564468b56831"
+  },
+  "title": "Kukiełka",
+  "description": "Kukiełka to zuchenka, która lubi teatr lalek. Bierze udział w przedstawieniach, podczas których ożywia lalki, podkłada swój głos.",
+  "tasks": "1. Rozróżnia rodzaje lalek. Wie, jak porusza się każdą z nich.<br/>2. Przygotowała przedstawienie i wystąpiła w nim, ożywiając lalki głosem i ruchami.<br/>3. Wykonała kukiełkę z niestandardowych materiałów.<br/>4. Wykorzystała wykonane przez siebie kukiełki do odegrania krótkich scenek.",
+  "comment": "ad.2. W przygotowaniu przedstawienia mogą oczywiście uczestniczyć też inne zuchy.<br/>ad.3. Np. rękawiczek, warzyw itd.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec66fc49aeb564468b56832"
+  },
+  "title": "Nutka",
+  "description": "Nutka to zuchenka, która lubi śpiewać, pląsać i zachęca do tego innych.",
+  "tasks": "1. Śpiewa piosenki i pląsa przy różnych okazjach.<br/>2. Potrafi zaśpiewać kilka pieśni ludowych, patriotycznych, turystycznych, zuchowych itp.<br/>3. Nauczyła zuchy nowej piosenki.<br/>4. Nie wstydzi się śpiewać przed publicznością.",
+  "comment": "",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec670429aeb564468b56833"
+  },
+  "title": "Technik teatralny",
+  "description": "Technik teatralny to zuchenka, która dba o przedstawienie od strony technicznej.",
+  "tasks": "1. Brała udział w przygotowaniach do przedstawienia od strony technicznej.<br/>2. Uczestniczyła w próbach, a później w przedstawieniu, zajmując się obsługą swojego elementu technicznego.<br/>3. Odwiedziła kulisy prawdziwego teatru.",
+  "comment": "Sprawność technika teatralnego powstała z myślą o zuchach, które nie lubią występować na scenie, ale chętnie włączą się w przygotowanie przedstawienia. Zadania technika teatralnego mogą obejmować dziedziny: operowanie muzyką, operowanie światłem, rekwizyty, ustawianie dekoracji, podnoszenie kurtyny, witanie gości i wskazywanie wolnych miejsc itp. Nie formułujemy wielu punktów-wymagań na sprawność, bo wkład pracy zuchenki zależny jest od wielkości przedstawienia. Należy pamiętać, że przy spektaklach kameralnych zuchenka realizująca sprawność może zająć się operowaniem np. muzyką i światłem. W większych przedsięwzięciach wystarczy natomiast, jeżeli zajmie się jednym z technicznych elementów, np. dopilnowaniem rekwizytów czy wnoszeniem dekoracji. Przygotowania do przedstawienia (punkt 1) to np.sporządzenie listy rekwizytów, wybór fragmentów muzycznych itd.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec671f99aeb564468b56834"
+  },
+  "title": "Strażniczka skarbca",
+  "description": "Strażniczka skarbca to zuchenka, która dba w sposób szczególny o rzeczy należące do gromady.",
+  "tasks": "1. Dopilnowała, by na rajd, wycieczkę, zwiad został zabrany totem (bądź inny symbol) gromady; opiekowała się nim podczas zbiórki.<br/>2. Pamięta, co i gdzie znajduje się w skarbcu gromady. Zatroszczyła się, by po wykonanej pracy wszystkie wykorzystywane rzeczy trafiły na swoje miejsce.<br/>3. Podczas majsterki wykorzystała odpowiednią ilość materiałów.<br/>4. Zna historię bądź znaczenie przynajmniej jednego z obrzędowych elementów znajdujących się w skarbcu.",
+  "comment": "Przez „zuchowy skarbiec” rozumiemy zarówno miejsce, w którym zgromadzone są elementy obrzędowe gromady, jak i dobro wspólne gromady",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec672399aeb564468b56835"
+  },
+  "title": "Tancerka",
+  "description": "Tancerka to zuchenka, która lubi tańczyć i zachęca do tego innych.",
+  "tasks": "1. Zna kroki kilku tańców towarzyskich i jednego ludowego.<br/>2. Wymyśliła układ taneczny do wybranej piosenki lub melodii.<br/>3. Nauczyła inne dzieci podstawowych kroków lub ruchów dowolnego tańca.<br/>4. Bez przygotowania kroków zatańczyła do usłyszanej melodii.",
+  "comment": "",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec672829aeb564468b56836"
+  },
+  "title": "Sportowa",
+  "description": "… to zuchenka, która regularnie trenuje wybraną dziedzinę sportu i stara się być w niej coraz lepsza.",
+  "tasks": "1. Trenuje wybraną dyscyplinę sportową. Doskonali się w niej. Zawsze dba o odpowiednią rozgrzewkę.<br/>2. Zna i potrafi zastosować różne techniki związane z daną dziedziną sportową.<br/>3. Zna historię wybranej dziedziny sportu (ciekawe wydarzenia, postaci).<br/>4. Nauczyła inne zuchy podstaw danej dyscypliny lub zaprezentowała swoje umiejętności.<br/>5. Zna zasady obowiązujące w tej dyscyplinie, zawsze ich przestrzega. Wie, jaki jest wymagany strój i sprzęt.",
+  "comment": "Nazwa sprawności jest zmieniana w zależności od uprawianej przez zuchenkę dyscypliny – np. narciarka, koszykarka.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec6736a9aeb564468b56837"
+  },
+  "title": "Piłeczka",
+  "description": "Piłeczka to zuchenka, który lubi zabawy z piłką, potrafi zorganizować zawody dla młodszych dzieci.",
+  "tasks": "1. Wykonała przynajmniej 10 ćwiczeń z piłką.<br/>2. Jest zwinna, chętnie uczestniczy w grach ruchowych z piłką.<br/>3. Trafiła piłką do celu z różnej odległości.<br/>4. Zorganizowała gry i zabawy z piłką dla dzieci, sprawiedliwie rozsądziła wyniki rozgrywek.",
+  "comment": "Warto wykorzystać do zabaw różne rodzaje piłek: nożną, ping-pong, lekarską, golfową, do koszykówki itd.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec674139aeb564468b56838"
+  },
+  "title": "Mistrzyni kółek",
+  "description": "Mistrzyni kółek to zuchenka, która jeździ na rolkach, wrotkach, rowerze, hulajnodze lub innym sprzęcie jeżdżącym, zna przepisy ruchu drogowego i przestrzega zasad bezpieczeństwa.",
+  "tasks": "1. Jeździ na rowerze, wrotkach, rolkach, hulajnodze itp., wykonała slalom i ósemkę, pokonała tor przeszkód.<br/>2. Zna i przestrzega przepisy ruchu drogowego.<br/>3. Jest mistrzynią kółek – pokazała kilka sztuczek, zachowując należytą ostrożność.<br/>4. Dba o sprzęt sportowy, potrafi dokonać prostych napraw.",
+  "comment": "",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec674599aeb564468b56839"
+  },
+  "title": "Rybka",
+  "description": "Rybka to zuchenka, która potrafi się zachować w wodzie, umie pływać i zna kilka wodnych zabaw.",
+  "tasks": "1. Lubi pływać, przestrzega zasad kąpieli.<br/>2. Przepłynęła 15 m dowolnym stylem.<br/>3. Chętnie bierze udział w zabawach i grach wodnych, przestrzega reguł.<br/>4. Umie się ochronić przed ostrym słońcem, zna i stosuje zasady zdrowego przebywania na słońcu.",
+  "comment": "Trzeba bezwzględnie przestrzegać zasad bezpieczeństwa podczas realizowania poszczególnych zadań.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec674949aeb564468b5683a"
+  },
+  "title": "Gimnastyczka",
+  "description": "Gimnastyczka to zuchenka, która lubi się gimnastykować. Jest zwinna, chętnie bierze udział w ćwiczeniach i potrafi się do nich przygotować.",
+  "tasks": "1. Lubi się gimnastykować, jest sprawna, przestrzega zasad bezpieczeństwa.<br/>2. Wykonała ćwiczenia gimnastyczne.<br/>3. Jest zwinna, skacze, wspina się po drzewach, drabinie.<br/>4. Wykonała przybory do gier i ćwiczeń.",
+  "comment": "ad.4. Np. woreczki, skakankę, tarczę do rzucania. Trzeba bezwzględnie przestrzegać zasad bezpieczeństwa podczas realizowania poszczególnych zadań.",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec6752a9aeb564468b5683b"
+  },
+  "title": "Olimpijka",
+  "description": "Olimpijka to zuchenka, która interesuje się olimpiadami sportowymi, chętnie uczestniczy w grach i ćwiczeniach, chce poprawiać swoje osiągnięcia sportowe.",
+  "tasks": "1. Zna ideę olimpiad sportowych.<br/>2. Zna kilka dyscyplin olimpiady zimowej i letniej, spróbowała swoich sił w jednej z nich.<br/>3. Zna symbole olimpijskie oraz podstawowe wydarzenia z historii olimpiad.<br/>4. Zna postać Polaka – olimpijczyka.<br/>5. Poprawiła swój wynik w wybranej dziedzinie sportu.<br/>6. Zaproponowała jedną konkurencję podczas zawodów w gromadzie. Jasno przedstawiła jej zasady.<br/>7. Jest sprawiedliwa i uczciwa, zawsze przestrzega ustalonych reguł.",
+  "comment": "",
+  "category": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec675609aeb564468b5683c"
+  },
+  "title": "Słoneczko",
+  "description": "Słoneczko to zuchenka, która poznaje historię ruchu zuchowego.",
+  "tasks": "1. Wie, kim byli Olga i Andrzej Małkowscy oraz jak nazywano dzieci w wieku zuchowym przed II wojną światową zanim pojawiła się nazwa „zuch”.<br/>2. Wie, jak wyglądała odznaka słoneczka, zna jego symbolikę.<br/>3. Potrafi zaśpiewać min. 2 przedwojenne piosenki zuchowe.<br/>4. Zna przynajmniej jedno opowiadanie zuchowe Jadwigi Zwolakowskiej.",
+  "comment": "ad.4. Jadwiga Zwolakowska, Opowiadania zuchowe.",
+  "category": 4,
+  "__v": 0
+}]
