@@ -4,7 +4,8 @@ const GraphQLObjectType = require('graphql').GraphQLObjectType;
 
 //Queries
 const user = require('../queries/user');
-const badges = require('../queries/badge');
+const badge = require('../queries/badge');
+const star = require('../queries/star');
 
 //Mutations
 const userMutations = require('../mutations/user');
@@ -15,12 +16,16 @@ const updateUser = userMutations.updateUser;
 const badgeMutations = require('../mutations/badge');
 const addBadge = badgeMutations.addBadge;
 
+const starMutations = require('../mutations/star');
+const addStar = starMutations.addStar;
+
 const queries = new GraphQLObjectType({
   name: 'Query',
   fields: function () {
     return {
       user,
-      badges
+      badge,
+      star
     }
   }
 });
@@ -32,7 +37,8 @@ var mutations = new GraphQLObjectType({
       addUser,
       removeUser,
       updateUser,
-      addBadge
+      addBadge,
+      addStar
     }
   }
 });
