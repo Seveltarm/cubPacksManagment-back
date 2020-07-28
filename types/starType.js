@@ -18,6 +18,9 @@ const starType = new GraphQLObjectType({
       tasks: {
         type: GraphQLString
       },
+      comment: {
+        type: GraphQLString
+      },
       packId: {
         type: GraphQLString
       },

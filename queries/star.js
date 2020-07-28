@@ -27,7 +27,8 @@ const starQuery = {
         let filteredStars = stars.filter((star) => {
           if (star.title.toLowerCase().includes(searchedPhrase.toLowerCase()) || 
               star.description.toLowerCase().includes(searchedPhrase.toLowerCase()) ||
-              star.tasks.toLowerCase().includes(searchedPhrase.toLowerCase())) {
+              star.tasks.toLowerCase().includes(searchedPhrase.toLowerCase()) ||
+              star.comment.toLowerCase().includes(searchedPhrase.toLowerCase())) {
             return star;
           }
         })

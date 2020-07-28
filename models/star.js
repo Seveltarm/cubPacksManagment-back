@@ -5,6 +5,7 @@ var starSchema = new mongoose.Schema({
     title: String,
     description: String,
     tasks: String,
+    comment: String,
     packId: String,
     category: Number
 });
